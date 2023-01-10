@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador-Desencriptador de texto</title>
+  <link rel="stylesheet" href="Estilos.css">
+</head>
+<header>
+    <h1>Encriptador-Desencriptador de texto</h1>
+    <img src="imagenes-proyecto/principal.jpg" >
+</header>
+<body>
+  <h1 class="titulo"></h1>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto">Introduzca el texto a encriptar-desencriptar</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+        <input class="btn" type="button" value="Encriptar" id="btn-encriptar">
+        <input class="btn" type="button" value="Desencriptar" id="btn-desencriptar">
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <h2 id="">Mensaje encriptado</h2>
+      <input class="text-input-salida" type="text" id="msg">
+      <input class="btn" type="button" value="Copiar" id="btncopy">
+    </section>
+  </main>
+  <footer>
+    <p class="copyright">&copy Copyright Erasmo Ortega</p>
+  </footer>
+  <script src="copy-pegar.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
